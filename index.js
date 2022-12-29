@@ -1488,7 +1488,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [0,39];
+	this.actionFrames = [0,49];
 	// timeline functions:
 	this.frame_0 = function() {
 		/* Arrêter la lecture à partir de cette image
@@ -1517,7 +1517,7 @@ if (reversed == null) { reversed = false; }
 			this.gotoAndPlay(0);
 		}
 	}
-	this.frame_39 = function() {
+	this.frame_49 = function() {
 		/* Arrêter la lecture à partir de cette image
 		Le scénario arrête/met en pause la lecture à partir de cette image lorsque vous insérez ce code.
 		Vous pouvez également utiliser ce code pour arrêter/mettre en pause le scénario des clips.
@@ -1527,31 +1527,34 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(39).call(this.frame_39).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(49).call(this.frame_49).wait(1));
 
 	// book03
 	this.instance = new lib.book03_btn();
 	this.instance.setTransform(764,300);
+	this.instance.alpha = 0;
 	this.instance._off = true;
 	new cjs.ButtonHelper(this.instance, 0, 1, 2, false, new lib.book03_btn(), 3);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(39).to({_off:false},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(39).to({_off:false},0).to({alpha:1},10).wait(1));
 
 	// book02
 	this.instance_1 = new lib.book02_btn();
 	this.instance_1.setTransform(481,300);
+	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 	new cjs.ButtonHelper(this.instance_1, 0, 1, 2, false, new lib.book02_btn(), 3);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(39).to({_off:false},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(39).to({_off:false},0).to({alpha:1},10).wait(1));
 
 	// book01
 	this.instance_2 = new lib.book01_btn();
 	this.instance_2.setTransform(198,300);
+	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 	new cjs.ButtonHelper(this.instance_2, 0, 1, 2, false, new lib.book01_btn(), 3);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(39).to({_off:false},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(39).to({_off:false},0).to({alpha:1},10).wait(1));
 
 	// btn
 	this.button_1 = new lib.play();
@@ -1563,13 +1566,16 @@ if (reversed == null) { reversed = false; }
 	this.shape.graphics.f("rgba(0,0,0,0.498)").s().p("EhK/AyAMAAAhj/MCV/AAAMAAABj/g");
 	this.shape.setTransform(480,320);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.button_1}]}).to({state:[]},1).wait(39));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.button_1}]}).to({state:[]},1).wait(49));
 
 	// animation
 	this.instance_3 = new lib.animation02("synched",0);
 	this.instance_3.setTransform(482,320,1,1,0,0,0,482,320);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(40));
+	this.instance_4 = new lib.WallWoodBG();
+	this.instance_4.setTransform(0,0,0.8276,1.3333);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3}]}).to({state:[{t:this.instance_4}]},40).wait(10));
 
 	this._renderFirstFrame();
 
@@ -1584,47 +1590,47 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/DoorOpeningGreenScreenEffects_00000.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00000"},
-		{src:"images/DoorOpeningGreenScreenEffects_00001.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00001"},
-		{src:"images/DoorOpeningGreenScreenEffects_00002.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00002"},
-		{src:"images/DoorOpeningGreenScreenEffects_00003.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00003"},
-		{src:"images/DoorOpeningGreenScreenEffects_00004.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00004"},
-		{src:"images/DoorOpeningGreenScreenEffects_00005.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00005"},
-		{src:"images/DoorOpeningGreenScreenEffects_00006.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00006"},
-		{src:"images/DoorOpeningGreenScreenEffects_00007.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00007"},
-		{src:"images/DoorOpeningGreenScreenEffects_00008.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00008"},
-		{src:"images/DoorOpeningGreenScreenEffects_00009.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00009"},
-		{src:"images/DoorOpeningGreenScreenEffects_00010.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00010"},
-		{src:"images/DoorOpeningGreenScreenEffects_00011.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00011"},
-		{src:"images/DoorOpeningGreenScreenEffects_00012.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00012"},
-		{src:"images/DoorOpeningGreenScreenEffects_00013.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00013"},
-		{src:"images/DoorOpeningGreenScreenEffects_00014.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00014"},
-		{src:"images/DoorOpeningGreenScreenEffects_00015.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00015"},
-		{src:"images/DoorOpeningGreenScreenEffects_00016.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00016"},
-		{src:"images/DoorOpeningGreenScreenEffects_00017.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00017"},
-		{src:"images/DoorOpeningGreenScreenEffects_00018.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00018"},
-		{src:"images/DoorOpeningGreenScreenEffects_00019.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00019"},
-		{src:"images/DoorOpeningGreenScreenEffects_00020.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00020"},
-		{src:"images/DoorOpeningGreenScreenEffects_00021.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00021"},
-		{src:"images/DoorOpeningGreenScreenEffects_00022.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00022"},
-		{src:"images/DoorOpeningGreenScreenEffects_00023.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00023"},
-		{src:"images/DoorOpeningGreenScreenEffects_00024.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00024"},
-		{src:"images/DoorOpeningGreenScreenEffects_00025.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00025"},
-		{src:"images/DoorOpeningGreenScreenEffects_00026.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00026"},
-		{src:"images/DoorOpeningGreenScreenEffects_00027.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00027"},
-		{src:"images/DoorOpeningGreenScreenEffects_00028.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00028"},
-		{src:"images/DoorOpeningGreenScreenEffects_00029.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00029"},
-		{src:"images/DoorOpeningGreenScreenEffects_00030.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00030"},
-		{src:"images/DoorOpeningGreenScreenEffects_00031.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00031"},
-		{src:"images/DoorOpeningGreenScreenEffects_00032.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00032"},
-		{src:"images/DoorOpeningGreenScreenEffects_00033.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00033"},
-		{src:"images/DoorOpeningGreenScreenEffects_00034.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00034"},
-		{src:"images/DoorOpeningGreenScreenEffects_00035.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00035"},
-		{src:"images/DoorOpeningGreenScreenEffects_00036.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00036"},
-		{src:"images/DoorOpeningGreenScreenEffects_00037.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00037"},
-		{src:"images/DoorOpeningGreenScreenEffects_00038.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00038"},
-		{src:"images/DoorOpeningGreenScreenEffects_00039.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00039"},
-		{src:"images/WallWoodBG.jpg?1672319001593", id:"WallWoodBG"}
+		{src:"images/DoorOpeningGreenScreenEffects_00000.png", id:"DoorOpeningGreenScreenEffects_00000"},
+		{src:"images/DoorOpeningGreenScreenEffects_00001.png", id:"DoorOpeningGreenScreenEffects_00001"},
+		{src:"images/DoorOpeningGreenScreenEffects_00002.png", id:"DoorOpeningGreenScreenEffects_00002"},
+		{src:"images/DoorOpeningGreenScreenEffects_00003.png", id:"DoorOpeningGreenScreenEffects_00003"},
+		{src:"images/DoorOpeningGreenScreenEffects_00004.png", id:"DoorOpeningGreenScreenEffects_00004"},
+		{src:"images/DoorOpeningGreenScreenEffects_00005.png", id:"DoorOpeningGreenScreenEffects_00005"},
+		{src:"images/DoorOpeningGreenScreenEffects_00006.png", id:"DoorOpeningGreenScreenEffects_00006"},
+		{src:"images/DoorOpeningGreenScreenEffects_00007.png", id:"DoorOpeningGreenScreenEffects_00007"},
+		{src:"images/DoorOpeningGreenScreenEffects_00008.png", id:"DoorOpeningGreenScreenEffects_00008"},
+		{src:"images/DoorOpeningGreenScreenEffects_00009.png", id:"DoorOpeningGreenScreenEffects_00009"},
+		{src:"images/DoorOpeningGreenScreenEffects_00010.png", id:"DoorOpeningGreenScreenEffects_00010"},
+		{src:"images/DoorOpeningGreenScreenEffects_00011.png", id:"DoorOpeningGreenScreenEffects_00011"},
+		{src:"images/DoorOpeningGreenScreenEffects_00012.png", id:"DoorOpeningGreenScreenEffects_00012"},
+		{src:"images/DoorOpeningGreenScreenEffects_00013.png", id:"DoorOpeningGreenScreenEffects_00013"},
+		{src:"images/DoorOpeningGreenScreenEffects_00014.png", id:"DoorOpeningGreenScreenEffects_00014"},
+		{src:"images/DoorOpeningGreenScreenEffects_00015.png", id:"DoorOpeningGreenScreenEffects_00015"},
+		{src:"images/DoorOpeningGreenScreenEffects_00016.png", id:"DoorOpeningGreenScreenEffects_00016"},
+		{src:"images/DoorOpeningGreenScreenEffects_00017.png", id:"DoorOpeningGreenScreenEffects_00017"},
+		{src:"images/DoorOpeningGreenScreenEffects_00018.png", id:"DoorOpeningGreenScreenEffects_00018"},
+		{src:"images/DoorOpeningGreenScreenEffects_00019.png", id:"DoorOpeningGreenScreenEffects_00019"},
+		{src:"images/DoorOpeningGreenScreenEffects_00020.png", id:"DoorOpeningGreenScreenEffects_00020"},
+		{src:"images/DoorOpeningGreenScreenEffects_00021.png", id:"DoorOpeningGreenScreenEffects_00021"},
+		{src:"images/DoorOpeningGreenScreenEffects_00022.png", id:"DoorOpeningGreenScreenEffects_00022"},
+		{src:"images/DoorOpeningGreenScreenEffects_00023.png", id:"DoorOpeningGreenScreenEffects_00023"},
+		{src:"images/DoorOpeningGreenScreenEffects_00024.png", id:"DoorOpeningGreenScreenEffects_00024"},
+		{src:"images/DoorOpeningGreenScreenEffects_00025.png", id:"DoorOpeningGreenScreenEffects_00025"},
+		{src:"images/DoorOpeningGreenScreenEffects_00026.png", id:"DoorOpeningGreenScreenEffects_00026"},
+		{src:"images/DoorOpeningGreenScreenEffects_00027.png", id:"DoorOpeningGreenScreenEffects_00027"},
+		{src:"images/DoorOpeningGreenScreenEffects_00028.png", id:"DoorOpeningGreenScreenEffects_00028"},
+		{src:"images/DoorOpeningGreenScreenEffects_00029.png", id:"DoorOpeningGreenScreenEffects_00029"},
+		{src:"images/DoorOpeningGreenScreenEffects_00030.png", id:"DoorOpeningGreenScreenEffects_00030"},
+		{src:"images/DoorOpeningGreenScreenEffects_00031.png", id:"DoorOpeningGreenScreenEffects_00031"},
+		{src:"images/DoorOpeningGreenScreenEffects_00032.png", id:"DoorOpeningGreenScreenEffects_00032"},
+		{src:"images/DoorOpeningGreenScreenEffects_00033.png", id:"DoorOpeningGreenScreenEffects_00033"},
+		{src:"images/DoorOpeningGreenScreenEffects_00034.png", id:"DoorOpeningGreenScreenEffects_00034"},
+		{src:"images/DoorOpeningGreenScreenEffects_00035.png", id:"DoorOpeningGreenScreenEffects_00035"},
+		{src:"images/DoorOpeningGreenScreenEffects_00036.png", id:"DoorOpeningGreenScreenEffects_00036"},
+		{src:"images/DoorOpeningGreenScreenEffects_00037.png", id:"DoorOpeningGreenScreenEffects_00037"},
+		{src:"images/DoorOpeningGreenScreenEffects_00038.png", id:"DoorOpeningGreenScreenEffects_00038"},
+		{src:"images/DoorOpeningGreenScreenEffects_00039.png", id:"DoorOpeningGreenScreenEffects_00039"},
+		{src:"images/WallWoodBG.jpg", id:"WallWoodBG"}
 	],
 	preloads: []
 };
