@@ -2,9 +2,7 @@
 
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
-lib.ssMetadata = [
-		{name:"index_atlas_1", frames: [[0,0,960,640],[962,0,960,640],[1924,0,960,640],[2886,0,960,640],[3848,0,960,640],[4810,0,960,640],[5772,0,960,640],[6734,0,960,640],[0,642,960,640],[962,642,960,640],[1924,642,960,640],[2886,642,960,640],[3848,642,960,640],[4810,642,960,640],[5772,642,960,640],[6734,642,960,640],[0,1284,960,640],[962,1284,960,640],[1924,1284,960,640],[2886,1284,960,640],[3848,1284,960,640],[4810,1284,960,640],[5772,1284,960,640],[6734,1284,960,640],[0,1926,960,640],[962,1926,960,640],[1924,1926,960,640],[2886,1926,960,640],[3848,1926,960,640],[4810,1926,960,640],[5772,1926,960,640],[6734,1926,960,640],[0,2568,960,640],[962,2568,960,640],[1924,2568,960,640],[2886,2568,960,640],[3848,2568,960,640],[4810,2568,960,640],[5772,2568,960,640],[6734,2568,960,640],[0,3210,1160,480]]}
-];
+lib.ssMetadata = [];
 
 
 (lib.AnMovieClip = function(){
@@ -28,290 +26,249 @@ lib.ssMetadata = [
 
 
 (lib.DoorOpeningGreenScreenEffects_00000 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00000);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00001 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00001);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00002 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00002);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00003 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00003);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00004 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00004);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00005 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00005);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00006 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00006);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00007 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00007);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00008 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00008);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00009 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00009);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00010 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00010);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00011 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00011);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00012 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00012);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00013 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00013);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00014 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00014);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00015 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00015);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00016 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00016);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00017 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00017);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00018 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(18);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00018);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00019 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(19);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00019);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00020 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(20);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00020);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00021 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(21);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00021);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00022 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(22);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00022);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00023 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(23);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00023);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00024 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(24);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00024);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00025 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(25);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00025);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00026 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(26);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00026);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00027 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(27);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00027);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00028 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(28);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00028);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00029 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(29);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00029);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00030 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(30);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00030);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00031 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(31);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00031);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00032 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(32);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00032);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00033 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(33);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00033);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00034 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(34);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00034);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00035 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(35);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00035);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00036 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(36);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00036);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00037 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(37);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00037);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00038 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(38);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00038);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.DoorOpeningGreenScreenEffects_00039 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(39);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.DoorOpeningGreenScreenEffects_00039);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,640);
 
 
 (lib.WallWoodBG = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(40);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.WallWoodBG);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1160,480);
 
 
 (lib.frame_anim = function(mode,startPosition,loop,reversed) {
@@ -428,7 +385,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Calque_2
+	// anim
 	this.instance = new lib.DoorOpeningGreenScreenEffects_00000();
 
 	this.instance_1 = new lib.DoorOpeningGreenScreenEffects_00001();
@@ -510,6 +467,13 @@ if (reversed == null) { reversed = false; }
 	this.instance_39 = new lib.DoorOpeningGreenScreenEffects_00039();
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_3}]},1).to({state:[{t:this.instance_4}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_6}]},1).to({state:[{t:this.instance_7}]},1).to({state:[{t:this.instance_8}]},1).to({state:[{t:this.instance_9}]},1).to({state:[{t:this.instance_10}]},1).to({state:[{t:this.instance_11}]},1).to({state:[{t:this.instance_12}]},1).to({state:[{t:this.instance_13}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.instance_15}]},1).to({state:[{t:this.instance_16}]},1).to({state:[{t:this.instance_17}]},1).to({state:[{t:this.instance_18}]},1).to({state:[{t:this.instance_19}]},1).to({state:[{t:this.instance_20}]},1).to({state:[{t:this.instance_21}]},1).to({state:[{t:this.instance_22}]},1).to({state:[{t:this.instance_23}]},1).to({state:[{t:this.instance_24}]},1).to({state:[{t:this.instance_25}]},1).to({state:[{t:this.instance_26}]},1).to({state:[{t:this.instance_27}]},1).to({state:[{t:this.instance_28}]},1).to({state:[{t:this.instance_29}]},1).to({state:[{t:this.instance_30}]},1).to({state:[{t:this.instance_31}]},1).to({state:[{t:this.instance_32}]},1).to({state:[{t:this.instance_33}]},1).to({state:[{t:this.instance_34}]},1).to({state:[{t:this.instance_35}]},1).to({state:[{t:this.instance_36}]},1).to({state:[{t:this.instance_37}]},1).to({state:[{t:this.instance_38}]},1).to({state:[{t:this.instance_39}]},1).wait(1));
+
+	// bg
+	this.instance_40 = new lib.WallWoodBG();
+	this.instance_40.setTransform(0,0,0.8276,1.3334);
+	this.instance_40._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_40).wait(29).to({_off:false},0).wait(11));
 
 	this._renderFirstFrame();
 
@@ -613,6 +577,16 @@ if (reversed == null) { reversed = false; }
 	this.actionFrames = [0,39];
 	// timeline functions:
 	this.frame_0 = function() {
+		/* Arrêter la lecture à partir de cette image
+		Le scénario arrête/met en pause la lecture à partir de cette image lorsque vous insérez ce code.
+		Vous pouvez également utiliser ce code pour arrêter/mettre en pause le scénario des clips.
+		*/
+		
+		this.stop();
+		
+		
+		
+		
 		/* Cliquer pour atteindre l’image et démarrer la lecture
 		Cliquez sur l’occurrence de symbole spécifiée pour déplacer la tête de lecture vers l’image sélectionnée dans le scénario et poursuivre la lecture à partir de cette image.
 		Ce code peut être utilisé sur le scénario principal ou sur les scénarios des clips.
@@ -628,20 +602,14 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(0);
 		}
-		var _this = this;
-		/*
-		Arrêter un clip/une vidéo
-		Permet d’arrêter la vidéo ou le clip spécifié.
-		*/
-		_this.stop();
 	}
 	this.frame_39 = function() {
-		var _this = this;
-		/*
-		Arrêter un clip/une vidéo
-		Permet d’arrêter la vidéo ou le clip spécifié.
+		/* Arrêter la lecture à partir de cette image
+		Le scénario arrête/met en pause la lecture à partir de cette image lorsque vous insérez ce code.
+		Vous pouvez également utiliser ce code pour arrêter/mettre en pause le scénario des clips.
 		*/
-		_this.stop();
+		
+		this.stop();
 	}
 
 	// actions tween:
@@ -665,12 +633,6 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(40));
 
-	// bg
-	this.instance_1 = new lib.WallWoodBG();
-	this.instance_1.setTransform(0,0,0.8276,1.3334);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(40));
-
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
@@ -684,7 +646,47 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/index_atlas_1.jpg?1672315223058", id:"index_atlas_1"}
+		{src:"images/DoorOpeningGreenScreenEffects_00000.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00000"},
+		{src:"images/DoorOpeningGreenScreenEffects_00001.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00001"},
+		{src:"images/DoorOpeningGreenScreenEffects_00002.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00002"},
+		{src:"images/DoorOpeningGreenScreenEffects_00003.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00003"},
+		{src:"images/DoorOpeningGreenScreenEffects_00004.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00004"},
+		{src:"images/DoorOpeningGreenScreenEffects_00005.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00005"},
+		{src:"images/DoorOpeningGreenScreenEffects_00006.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00006"},
+		{src:"images/DoorOpeningGreenScreenEffects_00007.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00007"},
+		{src:"images/DoorOpeningGreenScreenEffects_00008.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00008"},
+		{src:"images/DoorOpeningGreenScreenEffects_00009.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00009"},
+		{src:"images/DoorOpeningGreenScreenEffects_00010.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00010"},
+		{src:"images/DoorOpeningGreenScreenEffects_00011.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00011"},
+		{src:"images/DoorOpeningGreenScreenEffects_00012.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00012"},
+		{src:"images/DoorOpeningGreenScreenEffects_00013.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00013"},
+		{src:"images/DoorOpeningGreenScreenEffects_00014.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00014"},
+		{src:"images/DoorOpeningGreenScreenEffects_00015.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00015"},
+		{src:"images/DoorOpeningGreenScreenEffects_00016.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00016"},
+		{src:"images/DoorOpeningGreenScreenEffects_00017.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00017"},
+		{src:"images/DoorOpeningGreenScreenEffects_00018.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00018"},
+		{src:"images/DoorOpeningGreenScreenEffects_00019.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00019"},
+		{src:"images/DoorOpeningGreenScreenEffects_00020.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00020"},
+		{src:"images/DoorOpeningGreenScreenEffects_00021.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00021"},
+		{src:"images/DoorOpeningGreenScreenEffects_00022.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00022"},
+		{src:"images/DoorOpeningGreenScreenEffects_00023.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00023"},
+		{src:"images/DoorOpeningGreenScreenEffects_00024.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00024"},
+		{src:"images/DoorOpeningGreenScreenEffects_00025.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00025"},
+		{src:"images/DoorOpeningGreenScreenEffects_00026.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00026"},
+		{src:"images/DoorOpeningGreenScreenEffects_00027.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00027"},
+		{src:"images/DoorOpeningGreenScreenEffects_00028.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00028"},
+		{src:"images/DoorOpeningGreenScreenEffects_00029.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00029"},
+		{src:"images/DoorOpeningGreenScreenEffects_00030.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00030"},
+		{src:"images/DoorOpeningGreenScreenEffects_00031.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00031"},
+		{src:"images/DoorOpeningGreenScreenEffects_00032.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00032"},
+		{src:"images/DoorOpeningGreenScreenEffects_00033.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00033"},
+		{src:"images/DoorOpeningGreenScreenEffects_00034.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00034"},
+		{src:"images/DoorOpeningGreenScreenEffects_00035.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00035"},
+		{src:"images/DoorOpeningGreenScreenEffects_00036.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00036"},
+		{src:"images/DoorOpeningGreenScreenEffects_00037.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00037"},
+		{src:"images/DoorOpeningGreenScreenEffects_00038.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00038"},
+		{src:"images/DoorOpeningGreenScreenEffects_00039.png?1672316021305", id:"DoorOpeningGreenScreenEffects_00039"},
+		{src:"images/WallWoodBG.jpg?1672316021305", id:"WallWoodBG"}
 	],
 	preloads: []
 };
