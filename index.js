@@ -1106,23 +1106,23 @@ if (reversed == null) { reversed = false; }
 
 	// bg
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#323232").s().p("ABeCsIgthIQgUgfgNgQQgNgQgJgHQgKgHgKgCQgIgCgSAAIg1AAIAACZIgtAAIAAlXICXAAQAuAAAYAKQAYAJAOAXQAOAYAAAcQAAAkgXAaQgYAYgxAGQASAJAJAJQAUASASAbIA8BegAhpgTIBiAAQAeAAARgHQATgGAIgOQAKgOgBgRQAAgYgRgQQgSgQgmAAIhsAAg");
+	this.shape.graphics.f("#FFFFFF").s().p("ABeCsIgthIQgUgfgNgQQgNgQgJgHQgKgHgKgCQgIgCgSAAIg1AAIAACZIgtAAIAAlXICXAAQAuAAAYAKQAYAJAOAXQAOAYAAAcQAAAkgXAaQgYAYgxAGQASAJAJAJQAUASASAbIA8BegAhpgTIBiAAQAeAAARgHQATgGAIgOQAKgOgBgRQAAgYgRgQQgSgQgmAAIhsAAg");
 	this.shape.setTransform(65.45,-0.525);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#323232").s().p("Ah/CsIAAlXID3AAIAAApIjKAAIAABpIC9AAIAAAnIi9AAIAAB1IDSAAIAAApg");
+	this.shape_1.graphics.f("#FFFFFF").s().p("Ah/CsIAAlXID3AAIAAApIjKAAIAABpIC9AAIAAAnIi9AAIAAB1IDSAAIAAApg");
 	this.shape_1.setTransform(31.175,-0.525);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#323232").s().p("AgWCsIAAkuIhxAAIAAgpIEPAAIAAApIhxAAIAAEug");
+	this.shape_2.graphics.f("#FFFFFF").s().p("AgWCsIAAkuIhxAAIAAgpIEPAAIAAApIhxAAIAAEug");
 	this.shape_2.setTransform(0,-0.525);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#323232").s().p("ABZCsIi0kNIAAENIgrAAIAAlXIAuAAIC0ENIAAkNIAsAAIAAFXg");
+	this.shape_3.graphics.f("#FFFFFF").s().p("ABZCsIi0kNIAAENIgrAAIAAlXIAuAAIC0ENIAAkNIAsAAIAAFXg");
 	this.shape_3.setTransform(-32.2,-0.525);
 
 	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.f("#323232").s().p("Ah/CsIAAlXID3AAIAAApIjKAAIAABpIC9AAIAAAnIi9AAIAAB1IDSAAIAAApg");
+	this.shape_4.graphics.f("#FFFFFF").s().p("Ah/CsIAAlXID3AAIAAApIjKAAIAABpIC9AAIAAAnIi9AAIAAB1IDSAAIAAApg");
 	this.shape_4.setTransform(-64.775,-0.525);
 
 	this.shape_5 = new cjs.Shape();
@@ -1130,38 +1130,34 @@ if (reversed == null) { reversed = false; }
 	this.shape_5.setTransform(0,0.025);
 
 	this.shape_6 = new cjs.Shape();
-	this.shape_6.graphics.f("#FFFFFF").s().p("AxBINIAAwZMAiDAAAIAAQZg");
+	this.shape_6.graphics.f("rgba(255,255,255,0.2)").s().p("AxBINIAAwZMAiDAAAIAAQZg");
 	this.shape_6.setTransform(0,0.025);
 
 	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.f("#FFFFFF").s().p("ABeCsIgthIQgUgfgNgQQgNgQgJgHQgKgHgKgCQgIgCgSAAIg1AAIAACZIgtAAIAAlXICXAAQAuAAAYAKQAYAJAOAXQAOAYAAAcQAAAkgXAaQgYAYgxAGQASAJAJAJQAUASASAbIA8BegAhpgTIBiAAQAeAAARgHQATgGAIgOQAKgOgBgRQAAgYgRgQQgSgQgmAAIhsAAg");
+	this.shape_7.graphics.f("#323232").s().p("ABeCsIgthIQgUgfgNgQQgNgQgJgHQgKgHgKgCQgIgCgSAAIg1AAIAACZIgtAAIAAlXICXAAQAuAAAYAKQAYAJAOAXQAOAYAAAcQAAAkgXAaQgYAYgxAGQASAJAJAJQAUASASAbIA8BegAhpgTIBiAAQAeAAARgHQATgGAIgOQAKgOgBgRQAAgYgRgQQgSgQgmAAIhsAAg");
 	this.shape_7.setTransform(65.45,-0.525);
 
 	this.shape_8 = new cjs.Shape();
-	this.shape_8.graphics.f("#FFFFFF").s().p("Ah/CsIAAlXID3AAIAAApIjKAAIAABpIC9AAIAAAnIi9AAIAAB1IDSAAIAAApg");
+	this.shape_8.graphics.f("#323232").s().p("Ah/CsIAAlXID3AAIAAApIjKAAIAABpIC9AAIAAAnIi9AAIAAB1IDSAAIAAApg");
 	this.shape_8.setTransform(31.175,-0.525);
 
 	this.shape_9 = new cjs.Shape();
-	this.shape_9.graphics.f("#FFFFFF").s().p("AgWCsIAAkuIhxAAIAAgpIEPAAIAAApIhxAAIAAEug");
+	this.shape_9.graphics.f("#323232").s().p("AgWCsIAAkuIhxAAIAAgpIEPAAIAAApIhxAAIAAEug");
 	this.shape_9.setTransform(0,-0.525);
 
 	this.shape_10 = new cjs.Shape();
-	this.shape_10.graphics.f("#FFFFFF").s().p("ABZCsIi0kNIAAENIgrAAIAAlXIAuAAIC0ENIAAkNIAsAAIAAFXg");
+	this.shape_10.graphics.f("#323232").s().p("ABZCsIi0kNIAAENIgrAAIAAlXIAuAAIC0ENIAAkNIAsAAIAAFXg");
 	this.shape_10.setTransform(-32.2,-0.525);
 
 	this.shape_11 = new cjs.Shape();
-	this.shape_11.graphics.f("#FFFFFF").s().p("Ah/CsIAAlXID3AAIAAApIjKAAIAABpIC9AAIAAAnIi9AAIAAB1IDSAAIAAApg");
+	this.shape_11.graphics.f("#323232").s().p("Ah/CsIAAlXID3AAIAAApIjKAAIAABpIC9AAIAAAnIi9AAIAAB1IDSAAIAAApg");
 	this.shape_11.setTransform(-64.775,-0.525);
 
 	this.shape_12 = new cjs.Shape();
-	this.shape_12.graphics.f().s("#FFFFFF").ss(1,1,1).p("AxBoMMAiDAAAIAAQZMgiDAAAg");
+	this.shape_12.graphics.f("#FFFFFF").s().p("AxBINIAAwZMAiDAAAIAAQZg");
 	this.shape_12.setTransform(0,0.025);
 
-	this.shape_13 = new cjs.Shape();
-	this.shape_13.graphics.f("#333333").s().p("AxBINIAAwZMAiDAAAIAAQZg");
-	this.shape_13.setTransform(0,0.025);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7}]},1).to({state:[{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7}]},1).to({state:[{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.shape_12},{t:this.shape_5},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7}]},1).to({state:[{t:this.shape_6},{t:this.shape_5},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7}]},1).to({state:[{t:this.shape_6},{t:this.shape_5},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7}]},1).wait(1));
 
 	// frame
 	this.instance = new lib.frame_anim();
@@ -1588,47 +1584,47 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/DoorOpeningGreenScreenEffects_00000.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00000"},
-		{src:"images/DoorOpeningGreenScreenEffects_00001.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00001"},
-		{src:"images/DoorOpeningGreenScreenEffects_00002.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00002"},
-		{src:"images/DoorOpeningGreenScreenEffects_00003.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00003"},
-		{src:"images/DoorOpeningGreenScreenEffects_00004.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00004"},
-		{src:"images/DoorOpeningGreenScreenEffects_00005.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00005"},
-		{src:"images/DoorOpeningGreenScreenEffects_00006.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00006"},
-		{src:"images/DoorOpeningGreenScreenEffects_00007.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00007"},
-		{src:"images/DoorOpeningGreenScreenEffects_00008.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00008"},
-		{src:"images/DoorOpeningGreenScreenEffects_00009.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00009"},
-		{src:"images/DoorOpeningGreenScreenEffects_00010.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00010"},
-		{src:"images/DoorOpeningGreenScreenEffects_00011.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00011"},
-		{src:"images/DoorOpeningGreenScreenEffects_00012.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00012"},
-		{src:"images/DoorOpeningGreenScreenEffects_00013.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00013"},
-		{src:"images/DoorOpeningGreenScreenEffects_00014.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00014"},
-		{src:"images/DoorOpeningGreenScreenEffects_00015.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00015"},
-		{src:"images/DoorOpeningGreenScreenEffects_00016.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00016"},
-		{src:"images/DoorOpeningGreenScreenEffects_00017.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00017"},
-		{src:"images/DoorOpeningGreenScreenEffects_00018.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00018"},
-		{src:"images/DoorOpeningGreenScreenEffects_00019.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00019"},
-		{src:"images/DoorOpeningGreenScreenEffects_00020.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00020"},
-		{src:"images/DoorOpeningGreenScreenEffects_00021.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00021"},
-		{src:"images/DoorOpeningGreenScreenEffects_00022.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00022"},
-		{src:"images/DoorOpeningGreenScreenEffects_00023.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00023"},
-		{src:"images/DoorOpeningGreenScreenEffects_00024.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00024"},
-		{src:"images/DoorOpeningGreenScreenEffects_00025.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00025"},
-		{src:"images/DoorOpeningGreenScreenEffects_00026.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00026"},
-		{src:"images/DoorOpeningGreenScreenEffects_00027.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00027"},
-		{src:"images/DoorOpeningGreenScreenEffects_00028.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00028"},
-		{src:"images/DoorOpeningGreenScreenEffects_00029.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00029"},
-		{src:"images/DoorOpeningGreenScreenEffects_00030.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00030"},
-		{src:"images/DoorOpeningGreenScreenEffects_00031.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00031"},
-		{src:"images/DoorOpeningGreenScreenEffects_00032.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00032"},
-		{src:"images/DoorOpeningGreenScreenEffects_00033.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00033"},
-		{src:"images/DoorOpeningGreenScreenEffects_00034.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00034"},
-		{src:"images/DoorOpeningGreenScreenEffects_00035.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00035"},
-		{src:"images/DoorOpeningGreenScreenEffects_00036.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00036"},
-		{src:"images/DoorOpeningGreenScreenEffects_00037.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00037"},
-		{src:"images/DoorOpeningGreenScreenEffects_00038.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00038"},
-		{src:"images/DoorOpeningGreenScreenEffects_00039.png?1672318851287", id:"DoorOpeningGreenScreenEffects_00039"},
-		{src:"images/WallWoodBG.jpg?1672318851287", id:"WallWoodBG"}
+		{src:"images/DoorOpeningGreenScreenEffects_00000.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00000"},
+		{src:"images/DoorOpeningGreenScreenEffects_00001.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00001"},
+		{src:"images/DoorOpeningGreenScreenEffects_00002.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00002"},
+		{src:"images/DoorOpeningGreenScreenEffects_00003.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00003"},
+		{src:"images/DoorOpeningGreenScreenEffects_00004.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00004"},
+		{src:"images/DoorOpeningGreenScreenEffects_00005.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00005"},
+		{src:"images/DoorOpeningGreenScreenEffects_00006.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00006"},
+		{src:"images/DoorOpeningGreenScreenEffects_00007.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00007"},
+		{src:"images/DoorOpeningGreenScreenEffects_00008.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00008"},
+		{src:"images/DoorOpeningGreenScreenEffects_00009.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00009"},
+		{src:"images/DoorOpeningGreenScreenEffects_00010.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00010"},
+		{src:"images/DoorOpeningGreenScreenEffects_00011.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00011"},
+		{src:"images/DoorOpeningGreenScreenEffects_00012.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00012"},
+		{src:"images/DoorOpeningGreenScreenEffects_00013.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00013"},
+		{src:"images/DoorOpeningGreenScreenEffects_00014.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00014"},
+		{src:"images/DoorOpeningGreenScreenEffects_00015.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00015"},
+		{src:"images/DoorOpeningGreenScreenEffects_00016.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00016"},
+		{src:"images/DoorOpeningGreenScreenEffects_00017.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00017"},
+		{src:"images/DoorOpeningGreenScreenEffects_00018.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00018"},
+		{src:"images/DoorOpeningGreenScreenEffects_00019.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00019"},
+		{src:"images/DoorOpeningGreenScreenEffects_00020.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00020"},
+		{src:"images/DoorOpeningGreenScreenEffects_00021.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00021"},
+		{src:"images/DoorOpeningGreenScreenEffects_00022.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00022"},
+		{src:"images/DoorOpeningGreenScreenEffects_00023.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00023"},
+		{src:"images/DoorOpeningGreenScreenEffects_00024.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00024"},
+		{src:"images/DoorOpeningGreenScreenEffects_00025.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00025"},
+		{src:"images/DoorOpeningGreenScreenEffects_00026.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00026"},
+		{src:"images/DoorOpeningGreenScreenEffects_00027.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00027"},
+		{src:"images/DoorOpeningGreenScreenEffects_00028.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00028"},
+		{src:"images/DoorOpeningGreenScreenEffects_00029.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00029"},
+		{src:"images/DoorOpeningGreenScreenEffects_00030.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00030"},
+		{src:"images/DoorOpeningGreenScreenEffects_00031.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00031"},
+		{src:"images/DoorOpeningGreenScreenEffects_00032.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00032"},
+		{src:"images/DoorOpeningGreenScreenEffects_00033.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00033"},
+		{src:"images/DoorOpeningGreenScreenEffects_00034.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00034"},
+		{src:"images/DoorOpeningGreenScreenEffects_00035.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00035"},
+		{src:"images/DoorOpeningGreenScreenEffects_00036.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00036"},
+		{src:"images/DoorOpeningGreenScreenEffects_00037.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00037"},
+		{src:"images/DoorOpeningGreenScreenEffects_00038.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00038"},
+		{src:"images/DoorOpeningGreenScreenEffects_00039.png?1672319001593", id:"DoorOpeningGreenScreenEffects_00039"},
+		{src:"images/WallWoodBG.jpg?1672319001593", id:"WallWoodBG"}
 	],
 	preloads: []
 };
